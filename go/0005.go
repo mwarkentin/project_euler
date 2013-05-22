@@ -4,7 +4,7 @@ import "fmt"
 import "os"
 
 func main() {
-    for i := 2520; ; i++ {
+    for i := 2520; ; i+=20 {
         for j := 1; j <= 20; j++ {
             if i % j != 0 {
                 break
